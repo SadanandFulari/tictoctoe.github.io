@@ -1,0 +1,73 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+
+nav{
+    background-color: rgb(17, 11, 17);
+    color: white;
+    height: 75px;
+    font-size: 27px;
+    display: flex;
+    align-items: center;
+    padding: 0px 12px;
+    
+}
+nav ul{
+    list-style-type: none;
+
+}
+.gameContainer{
+    display: flex;
+    justify-content: center;
+    background: url("data:image/jpeg;base64,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");
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 1530px;
+    height: 100vh;
+    
+}
+.container{
+    display: grid;
+    grid-template-rows: repeat(3, 10vw);
+    grid-template-columns: repeat(3, 10vw);
+    margin-top: 30px;
+}
+.box{
+    border: 2px solid black;
+    font-size: 8vw;
+    cursor: pointer;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.box:hover{
+    cursor: pointer;
+    background-color: rgb(154, 154, 226);
+}
+.gameInfo{
+    padding: 0 34px;
+
+}
+.br-0{
+    border-right: 0;
+}
+.bl-0{
+    border-left: 0;
+}
+.bt-0{
+    border-top: 0;
+}
+.bb-0{
+    border-bottom: 0;
+}
+#infof{
+    margin-top: 30px;
+    font-size: 60px;
+}
+button{
+    width: 70px;
+    height: 40px;
+    font-size: 20px;
+    cursor: pointer;
+}
